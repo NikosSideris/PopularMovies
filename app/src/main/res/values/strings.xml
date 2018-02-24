@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <!-- api & urls -->
+    <!-- full url= url+api+url_part2 -->
+    <string name="api"></string>
+    <string name="url_popularity">https://api.themoviedb.org/3/discover/movie?api_key=</string>
+
+    <string name="url_popularity_part2">&amp;language=en-US&amp;sort_by=popularity.desc&amp;include_adult=false&amp;include_video=false&amp;page=1</string>
+    <string name="url_vote_average">https://api.themoviedb.org/3/discover/movie?api_key=</string>
+    <string name="url_vote_average_part2">&amp;language=en-US&amp;sort_by=vote_average.asc&amp;include_adult=false&amp;include_video=false&amp;page=1</string>
+    <string name="title_activity_details">Details</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!--uri strings (alternative)-->
+    <string name="uri_base">https://api.themoviedb.org/3/discover/movie</string>
+
+    <string name="uri_apiquery">api_key=</string>
+    <string name="uri_sortquery">sort_by=</string>
+    <string name="uri_popularitysorting">popularity.desc</string>
+    <string name="uri_ratingsorting">vote_average.asc</string>
+    <!-- url fot poster -->
+    <string name="base">http://image.tmdb.org/t/p/</string>
+    <string name="size">w185</string>
+    <!-- Options menu items -->
+    <string name="sort_by_popularity">Sort by Popularity</string>
+    <string name="sort_by_rating">Sort by User Rating</string>
+    <string name="settings">Settings</string>
+    <!-- Settings activity -->
+    <string name="sort_by">Sort by:</string>
+    <string name="pref_hint">If off, sorting is by popularity</string>
+    <string name="pref_ratings_on">On (Sorting by User Rating)</string>
+    <string name="pref_ratings_off">Off (Sorting by Popularity)</string>
+
+
+
+</resources>
